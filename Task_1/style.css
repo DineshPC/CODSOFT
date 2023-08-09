@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    min-width: fit-content;
+    height: auto;
+    background-color: hsl(0, 0%, 20%);
+    color: #fff;
+}
+
+.brand-name {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 10px ;
+    font-size: 25px;
+}
+
+.navbar-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar-list li {
+    padding: 10px ;
+    margin-left: 20px;
+    margin-right: 10px; 
+}
+
+.navbar-list li:hover {
+    background-color: dimgray;
+    pointer-events: painted;
+    transform: scale(1.1); 
+    text-decoration: underline 2px solid red;
+    transition: transform 500ms ;
+    transition-property: transform background-color;
+}
+
+.navbar-list li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    color: #fff;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer img{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+footer img:hover{
+    scale: 1.2;
+
+}
+
+.introduction{
+    display: flex;
+    column-count: 2;
+    padding: 2rem;
+    background-color: #fdc780;
+}
+
+.introduction img{
+    max-height: 500px;
+    float: right;
+    max-width: 45vw;
+    padding: 10px;
+}
+
+.intro-right{
+    width: 50%;
+    float: right;
+}
+
+.address {
+    padding-left: 20%;
+    padding-right: 20%;
+}
+
+.about {
+    padding-left: 15%;
+    padding-right: 15%;
+    background-color: ghostwhite;
+}
+
+.about-1{
+    display: flex;
+    column-count: 2;
+}
+
+.about-1 img{
+    max-height: 400px;
+    float: right;
+    max-width: 45vw;
+    padding: 10px;
+}
+
+.about-2{
+    display: flex;
+    column-count: 2;
+}
+
+.about-2 img{
+    max-height: 400px;
+    float: right;
+    max-width: 45vw;
+    padding: 10px;
+}
+
+.about-3{
+    display: flex;
+    column-count: 2;
+}
+
+.about-3 img{
+    max-height: 400px;
+    float: right;
+    max-width: 45vw;
+    padding: 10px;
+}
