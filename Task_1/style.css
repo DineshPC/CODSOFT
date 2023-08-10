@@ -138,14 +138,14 @@ footer img:hover{
     padding: 10px;
 }
 
-@media (max-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .about {
         padding-left: 5%;
         padding-right: 5%;
     }
 }
 
-@media (max-width: 900px) {
+@media screen and (max-width: 900px) {
     .about {
         padding-left: 5%;
         padding-right: 5%;
