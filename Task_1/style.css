@@ -82,7 +82,7 @@ footer img:hover{
 .introduction img{
     max-height: 500px;
     float: right;
-    max-width: 45vw;
+    width: 45vw;
     padding: 10px;
 }
 
@@ -136,4 +136,54 @@ footer img:hover{
     float: right;
     max-width: 45vw;
     padding: 10px;
+}
+
+@media (max-width: 1200px) {
+    .about {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media (max-width: 900px) {
+    .about {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .about-1{
+        flex-wrap: wrap;
+    }
+
+    .about-1 img{
+        max-height: 400px;
+        max-width: 85vw;
+    }
+
+    .about-2{
+        flex-wrap: wrap;
+    }
+
+    .about-2 img{
+        max-height: 400px;
+        max-width: 85vw;
+    }
+
+    .about-3{
+        flex-wrap: wrap;
+    }
+
+    .about-3 img{
+        max-height: 400px;
+        max-width: 85vw;
+    }
+
+    .introduction{
+        flex-wrap: wrap;
+    }
+
+    .introduction img {
+        width: 85vw;
+        float: none;
+    }
 }
